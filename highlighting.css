@@ -1,0 +1,83 @@
+.number {
+	color: #09aee5;
+}
+
+.text-literal {
+	color: #e09100;
+	font-style: italic;
+}
+
+.identifier {
+	color: #0ece88;
+}
+
+.boolean {
+	color: #09aee5;
+}
+
+.error {
+	color: #e84040;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+.keyword {
+	color: #ef95ec;
+	font-weight: bold;
+}
+
+.program-name {
+	color: #bfb047;
+}
+
+.unknown {
+	color: #dcdc00;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.constant {
+	color: #efc900;
+    text-decoration: underline;
+}
+
+.type {
+	color: #17de95;
+	font-weight: bold;
+}
+
+.variable {
+	color: #0083e0;
+}
+
+.variable-argument {
+	color: #d88997;
+}
+
+.variable-unproven {
+	color: #0083e0;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.function {
+	color: #46b1db;
+	font-style: italic;
+}
+
+.modifier {
+	color: orange;
+}
+
+.operator {
+	color: #b1dd42;
+}
+
+.collection {
+	color: #fb51de;
+	font-style: italic;
+}
+
+.comment {
+	color: gray;
+}

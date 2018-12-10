@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Overlayed</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="highlighting.css">
+        <link rel="stylesheet" href="index.css">
+
+        <script src="formatter.js" defer></script>
+        <script src="represent.js" defer></script>
+        <script src="reader.js" defer></script>
+        <script src="lexer.js" defer></script>
+        <script src="parser.js" defer></script>
+
+        <script src="index.js" defer></script>
+    </head>
+
+    <body>
+        <div id="sources">
+            <div class="source">
+                <h1>Shakal</h1>
+            	<div class="code-handle">
+                    <textarea class="raw code" id="raw-input" wrap="off"></textarea>
+                    <div class="decorated code" id="decorated-input"></div>
+            	</div>
+            </div>
+
+            <div class="horizontal-separator"></div>
+
+            <div class="source">
+                <h1>Pascal</h1>
+                <div class="code-handle">
+                    <div class="decorated code" id="decorated-output"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
